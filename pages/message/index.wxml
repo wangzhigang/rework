@@ -1,6 +1,6 @@
 <!--index.wxml-->
+<scroll-view class="scrollarea" scroll-y type="list">
   <view class="container">
-  <navBar background='#21B664' backgroundColorTop='#21B664' searchBar="{{true}}" bindsearch='search' />
     <view class="userinfo">
       <block wx:if="{{canIUseNicknameComp && !hasUserInfo}}">
         <button class="avatar-wrapper" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar">
@@ -24,3 +24,4 @@
       <text class="user-motto">{{motto}}</text>
     </view>
   </view>
+</scroll-view>

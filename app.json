@@ -1,12 +1,48 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/tool/index",
+    "pages/message/index",
+    "pages/user/index"
   ],
+  "tabBar": {
+    "selectedColor": "#21B664",
+    "color": "#333",
+    "backgroundColor": "#fff",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home@active.png"
+      },
+      {
+        "pagePath": "pages/tool/index",
+        "text": "工具",
+        "iconPath": "images/tool.png",
+        "selectedIconPath": "images/tool@active.png"
+      },
+      {
+        "pagePath": "pages/message/index",
+        "text": "对话",
+        "iconPath": "images/message.png",
+        "selectedIconPath": "images/message@active.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "设置",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user@active.png"
+      }
+    ]
+  },
   "window": {
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarBackgroundColor": "#ffffff"
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#21B664",
+    "navigationBarTitleText": "贝壳小盒子",
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "custom"
   },
   "style": "v2",
   "componentFramework": "glass-easel",
