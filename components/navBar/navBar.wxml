@@ -18,6 +18,13 @@
                 <slot name="left"></slot>
             </block>
         </view>
+        <view class='lxy-nav-bar__home'>
+            <view class='lxy-nav-bar__home-icon'></view>
+            <view class='lxy-nav-bar__home-text'>
+                <view class='lxy-nav-bar__home-text-title'>ReWork</view>
+                <view class='lxy-nav-bar__home-text-subtitle'>健身饮食助手</view>
+            </view>
+        </view>
         <view class='lxy-nav-bar__center'>
             <block wx:if="{{title}}">
                 <text class='lxy-nav-bar__center-title'>{{title}}</text>

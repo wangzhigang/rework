@@ -65,7 +65,7 @@ page {
 }
 .lxy-nav-bar__buttons::after {
   position: absolute;
-  content: '';
+  content: "";
   width: 1rpx;
   height: 18.4px;
   background: rgba(204, 204, 204, 0.6);
@@ -90,6 +90,32 @@ page {
 .lxy-nav-bar__inner .lxy-nav-bar__left .lxy-nav-bar__btn_gohome:active {
   opacity: 0.5;
 }
+
+.lxy-nav-bar__inner .lxy-nav-bar__home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.lxy-nav-bar__inner .lxy-nav-bar__home .lxy-nav-bar__home-icon {
+  background-size: 32px 32px;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.lxy-nav-bar__inner .lxy-nav-bar__home .lxy-nav-bar__home-text-title {
+  font-size: 20px;
+  color: #fff;
+}
+
+.lxy-nav-bar__inner .lxy-nav-bar__home .lxy-nav-bar__home-text-subtitle {
+  font-size: 10px;
+  color: #fff;
+}
+
 .lxy-nav-bar__inner .lxy-nav-bar__center {
   font-size: 17px;
   line-height: 17px;
@@ -102,6 +128,7 @@ page {
   align-items: center;
   justify-content: center;
   padding-left: 10px;
+  display: none;
 }
 .lxy-nav-bar__inner .lxy-nav-bar__center .lxy-nav-bar__center-title {
   margin-top: -2px;
