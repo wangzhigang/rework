@@ -2,11 +2,31 @@
   <view class="page-index">
     <navBar background='#21B664' backgroundColorTop='#21B664' searchBar="{{true}}" bindsearch='search' />
     <view class="container">
-      <view class="list">
-        <view class="title">私人教练</view>
-      </view>
-      <view class="list">
-        <view class="title">个人爱好者</view>
-      </view>
-    </view>
+      <!-- 列表 -->
+      <!-- <view class="list-container">
+        <view class="list">
+          <view class="title">私人教练</view>
+        </view>
+        <view class="list">
+          <view class="title">个人爱好者</view>
+        </view>
+      </view> -->
+    
+      <view class="add-course">
+          <view class="add-course-header">
+              <view class="acalendar-select">
+
+              </view>
+              <view class="calendar-show-btn">
+                日历
+              </view>
+          </view>
+
+          <view class="add-course-content p-16">
+            <view class="add-course-title">添加课程，转发给你的客户，开始健康的一天</view>
+            <view class="add-course-btn m-t-16" bind:tap="addCourse">添加课程</view>
+          </view>
+       </view>
+
+     </view>  
   </view>

@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/tool/index",
     "pages/message/index",
-    "pages/user/index"
+    "pages/user/index",
+    "pages/addCourse/index"
   ],
   "tabBar": {
     "selectedColor": "#21B664",

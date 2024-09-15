@@ -1,0 +1,68 @@
+/**index.wxss**/
+page-index {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  background: #f5f6f7;
+  height: 100vh;
+  padding: 16px;
+}
+
+.content {
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.title {
+  color: #002515;
+  font-family: "PingFang SC";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  padding: 0 0 8px 0;
+}
+.item {
+  padding: 15px 0 15px 0;
+  border-bottom: 1px solid #f5f6f7;
+  display: flex; /* 启用Flex布局 */
+  align-items: center; /* 子项在交叉轴上的对齐方式，这里使文字、输入框和图标垂直居中 */
+  justify-content: space-between; /* 子项在主轴上的对齐方式，这里使子项两端对齐 */
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.label {
+  /* 如果需要调整文字的样式，可以在这里添加 */
+  font-size: 14px;
+}
+
+.input {
+  flex: 1; /* 使得输入框能够灵活地伸展以填充剩余空间 */
+  /* 可以根据需要添加其他样式，如边框、圆角等 */
+}
+
+.icon {
+  width: 30px; /* 设置图标的宽度，根据实际需要调整 */
+  height: 30px; /* 设置图标的高度，根据实际需要调整 */
+  /* 如果需要，还可以添加其他样式，如边框、边距等 */
+}
+
+.submit {
+  margin-top: 30px;
+  color: #fff;
+  display: flex;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  align-self: stretch;
+  border-radius: 6px;
+  background: var(--Brand-Brand6-Hover, #21b664);
+}
