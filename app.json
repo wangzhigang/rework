@@ -4,7 +4,8 @@
     "pages/tool/index",
     "pages/message/index",
     "pages/user/index",
-    "pages/addCourse/index"
+    "pages/addCourse/index",
+    "pages/myCourse/index"
   ],
   "tabBar": {
     "selectedColor": "#21B664",

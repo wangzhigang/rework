@@ -12,10 +12,10 @@ Page({
     canIUseGetUserProfile: wx.canIUse('getUserProfile'),
     canIUseNicknameComp: wx.canIUse('input.type.nickname'),
   },
-  handlerClick() {
+  handlerGohomeClick() {
     console.log(12121)
     wx.navigateTo({
-      url: '../myCourse/index'
+      url: '../index/index'
     });
   },
 })

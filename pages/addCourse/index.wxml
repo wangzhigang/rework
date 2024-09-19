@@ -31,7 +31,7 @@
 
         </view>
 
-        <view class="submit">确认</view>
+        <view class="submit" bind:tap="handlerClick">确认</view>
 
      </view>  
   </view>

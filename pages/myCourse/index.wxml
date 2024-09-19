@@ -1,0 +1,35 @@
+<!--index.wxml-->
+  <view class="page-index">
+    <navBar title='详情页' background='#fff' back="{{true}}" bindback="handlerGohomeClick"></navBar>
+    <view class="container">
+        <view class="content">
+
+          <view class="item">
+            <view class="title">
+              <view class="title-text">一周获得燃脂基础动作</view>
+              <image class="icon" src="../../images/home.png" mode="widthFix"></image>
+            </view>
+            <view class="content-text">
+              <view class="content-text-item">
+                <view class="time-title">课程时间</view>
+                <view class="time-text">19:00-20:00</view>
+              </view>
+
+              <view class="content-text-item">
+                <view class="apply-title">报名人数</view>
+                <view class="time-text">
+                  <text class="text-num">10</text>
+                  <view class="num-press">/</view>
+                </view>
+              </view>
+            </view>
+          </view>
+
+
+
+        </view>
+
+        <view class="submit">确认</view>
+
+     </view>  
+  </view>
