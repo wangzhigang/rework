@@ -9,27 +9,32 @@
               <view class="title-text">一周获得燃脂基础动作</view>
               <image class="icon" src="../../images/home.png" mode="widthFix"></image>
             </view>
-            <view class="content-text">
-              <view class="content-text-item">
-                <view class="time-title">课程时间</view>
-                <view class="time-text">19:00-20:00</view>
-              </view>
-
-              <view class="content-text-item">
-                <view class="apply-title">报名人数</view>
-                <view class="time-text">
-                  <text class="text-num">10</text>
-                  <view class="num-press">/</view>
+            <view class="course-info">
+                <view class="content-text-item">
+                  <view class="time-title">课程时间</view>
+                  <view class="time-text">19:00-20:00</view>
                 </view>
+
+                <view class="content-text-item">
+                  <view class="apply-title">报名人数</view>
+                  <view class="time-text press">
+                    <text class="text-num">6/10</text>
+                    <view class="num-press">
+                      <progress percent="20" border-radius="10" stroke-width="6"/>
+                    </view>
+                  </view> 
               </view>
             </view>
           </view>
 
-
+          <button class="add-course-btn m-b-16 m-t-16">添加课程</button>
+          <button class="add-course-btn m-t-16">复制到其他日期</button>
+          <button class="add-course-btn m-t-16">重新编辑</button>
+          
+          <button class="update-course-btn m-t-16">更新课程</button>
+          <button class="update-course-btn m-t-16">分享课程</button>
 
         </view>
-
-        <view class="submit">确认</view>
 
      </view>  
   </view>

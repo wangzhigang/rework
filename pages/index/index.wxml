@@ -14,8 +14,8 @@
     
       <view class="add-course">
           <view class="add-course-header">
-              <view class="acalendar-select">
-
+              <view class="calendar-select">
+                8月9日
               </view>
               <view class="calendar-show-btn">
                 日历

@@ -36,17 +36,21 @@ page-index {
   line-height: 32px;
 }
 
-.add-course {
-}
-
 .add-course-header {
+  display: flex; /* 启用Flexbox */
+  justify-content: space-between; /* 子元素之间填充空间，但这不是我们想要的效果，只是作为展示 */
+  align-items: center; /* 子元素在交叉轴上的对齐方式，这里用于垂直居中，可选 */
+  width: 100%; /* 容器的宽度 */
   background: #fff;
-  height: 53;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  padding: 15px;
 }
 
+.calendar-select {
+  flex-grow: 1;
+  text-align: center; /* 文本居中显示 */
+  /* 如果需要，可以添加一些内边距或外边距 */
+  padding: 0 10px; /* 示例内边距 */
+}
 .calendar-show-btn {
   width: 52px;
   height: 32px;

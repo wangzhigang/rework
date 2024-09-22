@@ -3,5 +3,18 @@
   "projectname": "reWork",
   "setting": {
     "compileHotReLoad": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/myCourse/index",
+          "pathName": "pages/myCourse/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
   }
 }
