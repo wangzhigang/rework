@@ -15,7 +15,7 @@
       <view class="add-course">
           <view class="add-course-header">
               <view class="calendar-select">
-                8月9日
+                <text bind:tap="prevDate">左--</text>{{currentDate}}<text bind:tap="nextDate">--右</text>
               </view>
               <view class="calendar-show-btn">
                 日历
@@ -27,6 +27,16 @@
             <view class="add-course-btn m-t-16" bind:tap="addCourse">添加课程</view>
           </view>
        </view>
-
+       <calendar
+        id="calendar"
+        default-value="2024-09-24"
+        config="{{calendarConfig}}"
+        bind:onSwipe="onSwipe"
+        bind:whenChangeWeek="whenChangeWeek"
+        bind:whenChangeMonth="whenChangeMonth"
+        bind:takeoverTap="takeoverTap"
+        bind:afterTapDate="afterTapDate"
+        bind:afterCalendarRender="afterCalendarRender"
+      ></calendar>
      </view>  
   </view>
