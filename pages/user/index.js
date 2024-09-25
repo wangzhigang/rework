@@ -11,6 +11,10 @@ Page({
     hasUserInfo: false,
     canIUseGetUserProfile: wx.canIUse('getUserProfile'),
     canIUseNicknameComp: wx.canIUse('input.type.nickname'),
+    radioItems: [
+      {name: '男', value: 'men'},
+      {name: '女', value: 'women', checked: 'true'}
+    ],
   },
   bindViewTap() {
     wx.navigateTo({

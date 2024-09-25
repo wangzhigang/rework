@@ -48,8 +48,8 @@ page {
   width: 100%;
   padding: 16px;
   box-sizing: border-box;
-  border-top: .5px solid rgba(0, 0, 0, 0.1);
-  border-bottom: .5px solid rgba(0, 0, 0, 0.1);
+  border-top: 0.5px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
   color: black;
 }
 
@@ -59,4 +59,46 @@ page {
 
 .nickname-input {
   flex: 1;
+}
+
+.user-info-list-wrapper {
+  padding: 0 12px;
+}
+
+.ser-info-list {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 0 16px;
+}
+
+.user-info-item-title-text {
+  margin-right: 6px;
+}
+
+.user-info-star {
+  color: rgb(174, 13, 13);
+}
+
+.user-info-item {
+  display: flex;
+  align-items: baseline;
+  padding: 16px;
+  overflow: hidden;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.user-info-item-content {
+  text-align: center;
+  margin-left: 10px;
+  width: 70%;
+}
+
+.user-info-label {
+  float: left;
+  margin-left: 20px;
+}
+
+.user-info-item-content text {
+  text-align: center;
 }

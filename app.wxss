@@ -9,3 +9,11 @@
 .m-b-16 {
   margin-bottom: 16px;
 }
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
