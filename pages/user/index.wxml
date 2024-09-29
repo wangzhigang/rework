@@ -9,16 +9,14 @@
 
     <view class="user-info-list-wrapper">
       <view class="user-info-list">
+
         <view class="user-info-item">
           <view class="user-info-item-title left">
-            <view class="user-info-item-title-text left">
-              我的教练
-            </view>
-            <text class="user-info-star left">*</text>
+            <view class="user-info-item-title-text left">我的教练 <text class="user-info-star">*</text></view>
           </view>
 
           <view class="user-info-item-content left">
-            <text>小明</text>
+            <input class="weui-input" auto-focus placeholder="将会获取焦点"/>
           </view>
         </view>
 
@@ -40,7 +38,72 @@
           </view>
         </view>
 
+        <view class="user-info-item">
+          <view class="user-info-item-title left">
+            <view class="user-info-item-title-text left">手机号码 <text class="user-info-star">*</text></view>
+          </view>
+
+          <view class="user-info-item-content left">
+            <input class="weui-input" auto-focus placeholder="15888997890"/>
+          </view>
+        </view>
+
+        <view class="user-info-item">
+          <view class="user-info-item-title left">
+            <view class="user-info-item-title-text left">微信号 <text class="user-info-star">*</text></view>
+          </view>
+
+          <view class="user-info-item-content left">
+            <input class="weui-input" auto-focus placeholder="小明"/>
+          </view>
+        </view>
+
+        <view class="user-info-item">
+          <view class="user-info-item-title left">
+            <view class="user-info-item-title-text left">所在地区 <text class="user-info-star">*</text></view>
+          </view>
+
+          <view class="user-info-item-content left">
+            <input class="weui-input" auto-focus placeholder="我是这里的"/>
+          </view>
+        </view>
+
       </view>
+
+      <!--身高-->
+      <view class="user-info-list m-t-16">
+          <view class="user-info-item">
+          <view class="user-info-item-title left">
+            <view class="user-info-item-title-text left">身高</view>
+          </view>
+
+          <view class="user-info-item-content left">
+            <input class="weui-input" auto-focus placeholder="100"/>
+          </view>
+        </view>
+
+        <view class="user-info-item">
+          <view class="user-info-item-title left">
+            <view class="user-info-item-title-text left">体重</view>
+          </view>
+
+          <view class="user-info-item-content left">
+            <input class="weui-input" auto-focus placeholder="100"/>
+          </view>
+        </view>
+
+        <view class="user-info-item">
+          <view class="user-info-item-title left">
+            <view class="user-info-item-title-text left">年龄</view>
+          </view>
+
+          <view class="user-info-item-content left">
+            <input class="weui-input" auto-focus placeholder="15"/>
+          </view>
+        </view>
+      </view>
+
+      <button class="firm-btn" type="primary">确认信息</button>
     </view>
     
   </view>
