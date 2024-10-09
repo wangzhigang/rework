@@ -1,6 +1,6 @@
 <!--index.wxml-->
   <view class="page-index">
-    <navBar background='#21B664' backgroundColorTop='#21B664' searchBar="{{true}}" bindsearch='search' />
+    <navBar background='#21B664' home="{{true}}" backgroundColorTop='#21B664' />
     <view class="container">
       <!-- 列表 -->
       <!-- <view class="list-container">

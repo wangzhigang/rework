@@ -1,10 +1,12 @@
 <view class="page-user">
+    <navBar title='完善个人资料' background='#21B664' back="{{true}}" bindback="handlerGohomeClick"></navBar>
     <view class="userinfo">
-      <block wx:if="{{canIUseNicknameComp && !hasUserInfo}}">
-        <button class="avatar-wrapper" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar">
+      <view wx:if="{{canIUseNicknameComp && !hasUserInfo}}">
+        <view class="avatar-box">
           <image class="avatar" src="{{userInfo.avatarUrl}}"></image>
-        </button>
-      </block>
+          <view class="edit">编辑</view>
+        </view>
+      </view>
     </view>
 
     <view class="user-info-list-wrapper">
@@ -104,6 +106,39 @@
       </view>
 
       <button class="firm-btn" type="primary">确认信息</button>
+
+      <mp-dialog title="请选择用户身份" show="{{dialogShow}}" bindbuttontap="tapDialogButton" buttons="{{buttons}}">
+          <view>以便充分使用ReWork的功能服务</view>
+          <view class="identity-selection m-t-16">
+            <form catchsubmit="formSubmit" catchreset="formReset">
+              <view class="identity-selection-item">
+                <label>
+                  <radio class="left radio" value="radio1"/>
+                  <view class="selection-item-content left">
+                    <view class="title">私人教练</view>
+                    <view class="sub-title">发布课程给学员，课程管理</view>
+                  </view>
+                </label>
+              </view>
+            </form>
+          </view>
+
+          <view class="identity-selection m-t-16">
+            <form catchsubmit="formSubmit" catchreset="formReset">
+              <view class="identity-selection-item">
+                <label>
+                  <radio class="left radio" value="radio1"/>
+                  <view class="selection-item-content left">
+                    <view class="title">私人教练</view>
+                    <view class="sub-title">发布课程给学员，课程管理</view>
+                  </view>
+                </label>
+              </view>
+            </form>
+          </view>
+          
+      </mp-dialog>
+
     </view>
     
   </view>

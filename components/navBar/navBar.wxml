@@ -18,7 +18,7 @@
                 <slot name="left"></slot>
             </block>
         </view>
-        <view class='lxy-nav-bar__home'>
+        <view wx:if="{{home}}" class='lxy-nav-bar__home'>
             <view class='lxy-nav-bar__home-icon'></view>
             <view class='lxy-nav-bar__home-text'>
                 <view class='lxy-nav-bar__home-text-title'>ReWork</view>

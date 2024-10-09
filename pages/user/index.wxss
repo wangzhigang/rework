@@ -20,7 +20,30 @@ page {
   flex-direction: column;
   align-items: center;
   color: #aaa;
-  width: 80%;
+  width: 100%;
+  background: #21b664;
+}
+
+.avatar {
+  width: 200rpx;
+  height: 200rpx;
+  display: block;
+  border-radius: 50%;
+  border: #fff 2px solid;
+}
+
+.avatar-box {
+  width: 200rpx;
+  height: 200rpx;
+  display: block;
+  margin: 40rpx 0 60rpx 0;
+  position: relative;
+}
+
+.edit {
+  position: absolute;
+  right: 10rpx;
+  bottom: 5rpx;
 }
 
 .userinfo-avatar {
@@ -41,12 +64,6 @@ page {
   border-radius: 8px;
   margin-top: 40px;
   margin-bottom: 40px;
-}
-
-.avatar {
-  display: block;
-  width: 56px;
-  height: 56px;
 }
 
 .nickname-wrapper {
@@ -111,4 +128,26 @@ page {
 .firm-btn {
   margin-top: 16px;
   width: 100% !important;
+}
+
+.identity-selection-item {
+  display: flex;
+  border-radius: 8px;
+  border: #21b664 2px solid;
+  padding: 10px;
+}
+
+.title {
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.radio{
+  margin-right: 5px;
+}
+
+.selection-item-content{
+  text-align: left;
 }

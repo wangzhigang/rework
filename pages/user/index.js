@@ -8,9 +8,11 @@ Page({
       avatarUrl: defaultAvatarUrl,
       nickName: '',
     },
+    dialogShow: true,
     hasUserInfo: false,
     canIUseGetUserProfile: wx.canIUse('getUserProfile'),
     canIUseNicknameComp: wx.canIUse('input.type.nickname'),
+    buttons: [{text: '取消'}, {text: '确定'}],
     radioItems: [
       {name: '男', value: 'men'},
       {name: '女', value: 'women', checked: 'true'}
@@ -19,6 +21,12 @@ Page({
   bindViewTap() {
     wx.navigateTo({
       url: '../logs/logs'
+    })
+  },
+  tapDialogButton(e) {
+    this.setData({
+      dialogShow: false,
+      showOneButtonDialog: false
     })
   },
   onChooseAvatar(e) {
