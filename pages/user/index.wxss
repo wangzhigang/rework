@@ -144,10 +144,47 @@ page {
   font-weight: bold;
 }
 
-.radio{
+.radio {
   margin-right: 5px;
 }
 
-.selection-item-content{
+.selection-item-content {
   text-align: left;
+}
+
+.avatar-box {
+  width: 100%;
+}
+
+.avatar-content {
+  display: flex;
+}
+
+.avatar-item {
+  flex: 1;
+  box-sizing: border-box;
+  height: 310rpx;
+  padding: 30rpx;
+}
+
+.avatar-img {
+  border-radius: 100px;
+  width: 96px;
+  height: 96px;
+}
+
+.avatar-men {
+  text-align: center;
+}
+
+.men {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.active {
+  border-radius: 4px;
+  border: 1px solid var(--Brand-Brand6-Hover, #21b664);
+  background: var(--Brand-Brand1-Light, #e6f6ec);
 }

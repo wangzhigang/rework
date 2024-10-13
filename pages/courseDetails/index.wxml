@@ -1,0 +1,59 @@
+<!-- index.wxml -->
+<view class="page-index">
+  <navBar title='详情页' background='#fff' back="{{true}}" bindback="handlerGohomeClick"></navBar>
+  <view class="container">
+    <view class="content">
+      <view class="item">
+        <view class="title">
+          <view class="title-text">一周获得燃脂基础动作</view>
+          <image class="icon" src="../../images/home.png" mode="widthFix"></image>
+        </view>
+        <view class="course-info">
+          <view class="content-text-item">
+            <view class="time-title">课程时间</view>
+            <view class="time-text">19:00-20:00</view>
+          </view>
+          <view class="content-text-item">
+            <view class="apply-title">课程日期</view>
+            <view class="time-text">8月9日 周五</view>
+          </view>
+        </view>
+        <view class="course-info m-t-16">
+          <view class="content-text-item">
+            <view class="time-title">教练昵称</view>
+            <view class="coach-info">
+              <image src="../../images/home.png" class="coach-avt" />
+              <view class="time-text">马东来</view>
+            </view>
+          </view>
+          <view class="content-text-item">
+            <view class="apply-title">报名人数</view>
+            <view class="time-text press">
+              <text class="text-num">6/10</text>
+              <view class="num-press">
+                <progress percent="20" border-radius="10" stroke-width="6" />
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="page-title">报名人数 1 人</view>
+    <view class="pupil-list">
+      <view class="pupil-list-item">
+        <image src="../../images/home.png" class="user-avt" />
+        <view class="user-name">最新客户</view>
+        <image src="../../images/icon-24px-general-boy.png" class="user-sex" />
+        <view class="user-name">20岁</view>
+        <view class="sign-up">10次报名</view>
+      </view>
+      <view class="pupil-list-item">
+        <image src="../../images/home.png" class="user-avt" />
+        <view class="user-name">最新客户</view>
+        <image src="../../images/icon-24px-general-boy.png" class="user-sex" />
+        <view class="user-name">20岁</view>
+        <view class="sign-up">10次报名</view>
+      </view>
+    </view>
+  </view>
+</view>

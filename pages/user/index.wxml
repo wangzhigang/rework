@@ -110,7 +110,7 @@
       <mp-dialog title="请选择用户身份" show="{{dialogShow}}" bindbuttontap="tapDialogButton" buttons="{{buttons}}">
           <view>以便充分使用ReWork的功能服务</view>
           <view class="identity-selection m-t-16">
-            <form catchsubmit="formSubmit" catchreset="formReset">
+            <form catchsubmit="formSubmit" catchreset="formReset"> 
               <view class="identity-selection-item">
                 <label>
                   <radio class="left radio" value="radio1"/>
@@ -138,6 +138,42 @@
           </view>
           
       </mp-dialog>
+
+      <mp-dialog title="当前身份" show="{{currentIdentity}}" bindbuttontap="tapDialogButton" buttons="{{buttons}}">
+          <view>切换教练身份（爱好者身份），当前已发布/已报名课程不受影响。但部分管理功能可能将不可用。</view>
+      </mp-dialog>
+
+      <mp-half-screen-dialog 
+        bindbuttontap="buttontap"
+        show="{{userImg}}"
+        maskClosable="{{false}}" 
+        title="选择头像"
+      >
+        <view class="avatar-box" slot="desc">
+          <view class="avatar-content">
+            <view class="avatar-item active">
+              <view class="avatar-men">
+                <image class="avatar-img" src="../../images/logo.png" />
+              </view>
+              <view class="men">男生</view>
+            </view>
+            
+            <view class="avatar-item">
+              <view class="avatar-men">
+                <image class="avatar-img" src="../../images/logo.png" />
+              </view>
+              <view class="men">男生</view>
+            </view>
+
+          </view>
+
+          <button class="firm-btn" plain="true" type="primary">确认信息</button>
+          <button class="firm-btn" plain="true" type="primary">确认信息</button>
+
+        </view>
+
+        
+      </mp-half-screen-dialog>
 
     </view>
     
