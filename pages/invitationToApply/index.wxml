@@ -1,0 +1,70 @@
+<!-- index.wxml -->
+<view class="page-index">
+  <navBar title='邀请你报名' background='#fff' back="{{true}}" bindback="handlerGohomeClick"></navBar>
+  <view class="container">
+
+    <view class="coach-info">
+      <view class="coach-info-dec">
+        <image class="coach-img" src="../../images/home.png" />
+        <view class="coach-info-name">
+          <view class="tips">你好，我是教练</view>
+          <view class="coach-name">马冬梅</view>
+          <view class="coach-subtitle">“诚邀您参加我的课程”</view>
+        </view>
+      </view>
+
+      <view class="connection-box m-t-16">
+
+        <view class="coach-phone">
+          <view class="coach-weixin">
+            <view class="text">微信号</view>
+            <view class="wx-name">
+              <image class="icon" src="../../images/home.png" />
+              <view class="wx-name-text">madongmei</view>
+            </view>
+          </view>
+        </view>
+
+        <view class="coach-phone">
+          <view class="coach-weixin">
+            <view class="text">微信号</view>
+            <view class="wx-name">
+              <image class="icon" src="../../images/home.png" />
+              <view class="wx-name-text">madongmei</view>
+            </view>
+          </view>
+        </view>
+
+      </view>
+    </view>
+
+    <view class="course-content m-t-16">
+        <view class="item">
+            <view class="course-title">
+              <text class="course-time">8月9日</text>
+              <text class="course-info">3个课程可报名</text>
+            </view>
+            <view class="title">
+              <view class="title-text">一周获得燃脂基础动作</view>
+            </view>
+            <view class="course-info">
+                <view class="content-text-item">
+                  <view class="time-title">课程时间</view>
+                  <view class="time-text">19:00-20:00</view>
+                </view>
+
+                <view class="content-text-item">
+                  <view class="apply-title">报名人数</view>
+                  <view class="time-text press">
+                    <text class="text-num">6/10</text>
+                    <view class="num-press">
+                      <progress percent="20" border-radius="10" stroke-width="6"/>
+                    </view>
+                  </view> 
+              </view>
+            </view>
+          </view>
+      </view>
+
+  </view>
+</view>

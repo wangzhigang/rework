@@ -175,3 +175,11 @@ page-index {
   margin-left: auto; /* 左侧间距 */
   color: #00000066;
 }
+
+.no-data {
+  padding: 16px;
+  text-align: center;
+  border-radius: 8px;
+  background: #fff;
+  margin: 16px 0 0 0;
+}

@@ -55,5 +55,8 @@
         <view class="sign-up">10次报名</view>
       </view>
     </view>
+
+    <view class="no-data">暂无来来自客户动态</view>
+
   </view>
 </view>

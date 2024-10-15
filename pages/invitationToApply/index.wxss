@@ -1,0 +1,182 @@
+/**index.wxss**/
+page-index {
+  width: 100%;
+}
+
+.container {
+  background: #f5f6f7;
+  height: 100vh;
+  padding: 16px;
+  width: 100%;
+}
+
+.content {
+  width: 100%;
+}
+
+.coach-info {
+  background: #21b664;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.coach-img {
+  width: 120rpx;
+  height: 120rpx;
+  border: 2px solid #fff;
+  border-radius: 100px;
+  background: linear-gradient(
+    330deg,
+    #0052d4 -31.21%,
+    #4364f7 18.94%,
+    #6fb1fc 98.47%
+  );
+}
+
+.coach-info-dec {
+  display: flex;
+}
+
+.coach-info-name {
+  margin-left: 15px;
+  color: #fff;
+}
+
+.coach-info-name .tips {
+  font-size: 12px;
+}
+.coach-name {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 2px 0;
+}
+
+.connection-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.coach-phone {
+  background: #fff;
+  width: 309rpx;
+  border-radius: 8px;
+  padding: 16rpx;
+}
+
+.connection-box .icon {
+  width: 48rpx;
+  height: 48rpx;
+}
+
+.connection-box .text {
+  color: #00000099;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.wx-name {
+  display: flex;
+}
+
+.wx-name .wx-name-text {
+  color: #000000e6;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.item {
+  padding: 16px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  justify-content: space-between;
+}
+
+.title-text {
+  color: #002515;
+  font-family: "PingFang SC";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.time-title,
+.apply-title {
+  font-size: 16px;
+  color: #00000099;
+  font-family: "PingFang SC";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.time-text {
+  color: #000000e6;
+  font-family: "PingFang SC";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.course-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-text-item {
+  flex: 1;
+}
+
+.num-press {
+  width: 82px;
+  height: 6px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.progress {
+  border-radius: 5px;
+}
+
+.text-num {
+  margin-right: 8px;
+}
+
+.press {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; /* 垂直居中 */
+}
+
+.course-title {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.course-time {
+  color: #002515;
+  font-family: "PingFang SC";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.course-info {
+  margin-left: 8px;
+  color: #00000066;
+  font-family: "PingFang SC";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}

@@ -6,7 +6,8 @@
     "pages/user/index",
     "pages/addCourse/index",
     "pages/myCourse/index",
-    "pages/courseDetails/index"
+    "pages/courseDetails/index",
+    "pages/invitationToApply/index"
   ],
   "tabBar": {
     "selectedColor": "#21B664",
