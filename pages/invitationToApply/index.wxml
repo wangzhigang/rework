@@ -63,7 +63,27 @@
                   </view> 
               </view>
             </view>
+
+            <view class="look-jh">
+              <image class="icon" src="../../images/home.png" />
+              <view class="text">查看课程计划</view>
+            </view>
+
           </view>
+
+          
+
+      </view>
+
+      <view class="share-info m-t-16">
+        <view class="share-info-left">
+          <view class="title">共有12个人</view>
+          <view class="subtitle">通过ReWork报名我的课程</view>
+        </view>
+
+        <view class="share-info-right">
+          <image class="icon" src="../../images/home.png" />
+        </view>
       </view>
 
   </view>

@@ -91,14 +91,14 @@ page-index {
   border-radius: 8px;
 }
 
-.title {
+.item .title {
   display: flex;
   align-items: center;
   margin-bottom: 12px;
   justify-content: space-between;
 }
 
-.title-text {
+.item .title-text {
   color: #002515;
   font-family: "PingFang SC";
   font-size: 18px;
@@ -179,4 +179,59 @@ page-index {
   font-style: normal;
   font-weight: 400;
   line-height: 22px;
+}
+
+.look-jh {
+  margin: 10px 0;
+  border-top: 1px solid #dcdcdc;
+  padding: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.look-jh .icon {
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+}
+
+.look-jh .text {
+  color: #17a75a;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.share-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.share-info-left .title {
+  color: #000000e6;
+  font-family: "PingFang SC";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.share-info-left .subtitle {
+  color: #00000066;
+  font-family: "PingFang SC";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.share-info-right .icon {
+  width: 110px;
+  height: 33px;
 }
