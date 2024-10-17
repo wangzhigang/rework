@@ -1,0 +1,41 @@
+<!-- index.wxml -->
+<view class="page-index">
+  <navBar title='报名课程' background='#fff' back="{{true}}" bindback="handlerGohomeClick"></navBar>
+  <view class="container">
+
+    <view class="course-content m-t-16">
+        <view class="item">
+            <view class="title">
+              <checkbox value="cb" checked="true"/>
+              <view class="title-text">一周获得燃脂基础动作</view>
+            </view>
+            <view class="error-tips">无法报名，课程报名人数已满(或课程已经开始/结束)</view>
+            <view class="course-info">
+                <view class="content-text-item">
+                  <view class="time-title">课程时间</view>
+                  <view class="time-text">19:00-20:00</view>
+                </view>
+
+                <view class="content-text-item">
+                  <view class="apply-title">报名人数</view>
+                  <view class="time-text press">
+                    <text class="text-num">6/10</text>
+                    <view class="num-press">
+                      <progress percent="20" border-radius="10" stroke-width="6"/>
+                    </view>
+                  </view> 
+              </view>
+            </view>
+
+            <view class="coach-name">
+              <image src="../../images/home.png" class="coach-img" />
+              <view class="cocah-name-text">ddddd</view>
+            </view>
+
+          </view>
+      </view>
+
+
+
+  </view>
+</view>

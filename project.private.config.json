@@ -8,6 +8,13 @@
     "miniprogram": {
       "list": [
         {
+          "name": "pages/registerCourse/index",
+          "pathName": "pages/registerCourse/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
           "name": "pages/invitationToApply/index",
           "pathName": "pages/invitationToApply/index",
           "query": "",
